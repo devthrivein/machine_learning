@@ -11,6 +11,7 @@
 [image8]: ./images/Resnet2.png "Resnet Loss"
 [image9]: ./images/result.png "Result1"
 [image10]: ./images/result2.png "Result2"
+[image11]: ./images/result3.png "Result3"
 
 
 ## Table of Contents
@@ -101,3 +102,5 @@ The model achieved over 96% accuracy on training set, but dropped sharply to 82%
 ![Result][image9]
 
 ![Result2][image10]
+
+![Result3][image11]
