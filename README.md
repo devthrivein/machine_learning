@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 
 ## Training Process <a name="trainingProcess"></a>
-- **Dataset:** The model was trained on a dataset of over 1700 images from different SME stores. ![sampleDataset][image10]
+- **Dataset:** The model was trained on a dataset of over 1700 images from different SME stores. ![sampleDataset][image0]
 - **Preprocessing:** The images were resized to the corresponding pixels expected by the model and normalized to have pixel values between 0 and 1. This process uses the ImageDataGenerator from the TensorFlow library. 
 - **Training Parameters:** The model was trained using the Adam optimizer with an adaptive learning rate. The model was trained for over 200 epochs, but only the most optimum metrics state of the model during training was saved. These processes were conducted using the built-in callback API.
 
