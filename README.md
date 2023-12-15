@@ -3,10 +3,10 @@
 [image0]: ./images/sampleDataset.png "SampleDataset"
 [image1]: ./images/Conv.png "Conv Accuracy"
 [image2]: ./images/Conv2.png "Conv Loss"
-[image3]: ./images/Inception.png "Inception Accuracy"
-[image4]: ./images/Inception2.png "Inception Loss"
-[image5]: ./images/Mobilenet.png "Mobilenet Accuracy"
-[image6]: ./images/Mobilenet2.png "Mobilenet Loss"
+[image3]: ./images/Mobilenet.png "Mobilenet Accuracy"
+[image4]: ./images/Mobilenet2.png "Mobilenet Loss"
+[image5]: ./images/Inception.png "Inception Accuracy"
+[image6]: ./images/Inception2.png "Inception Loss"
 [image7]: ./images/Resnet.png "Resnet Accuracy"
 [image8]: ./images/Resnet2.png "Resnet Loss"
 [image9]: ./images/result.png "Result1"
@@ -20,15 +20,12 @@
 3. [Usage](#usage)
 4. [Training Process](#trainingProcess)
 5. [Results and Screenshots](#results)
-6. [Contributing](#Contributing)
-
-
 
 ## Project Overview <a name="projectOverview"></a>
 
-In this project, we built an image classification models that is deployed in a real world application. Given an image of an SME store, the algorithm will identify whether the image contains banner or not. We created several models using CNN and transfer learning with mobilenet, resnet, and inception. 
+In this project, we built image classification models that are deployed in a real-world application. Given an image of an SME store, the algorithm will identify whether the image contains a banner or not. We created several models using CNN and transfer learning with MobileNet, ResNet, and Inception.
 
-These models serves as the mvp feature of the application. Our initial plan was to create a model capable of analyzing and generating designs for store logo and banners.
+These models serve as the MVP feature of the application. Our initial plan was to create a model capable of analyzing and generating design ideas for store logos and banners.
 
 
 
@@ -58,9 +55,9 @@ pip install -r requirements.txt
 
 
 ## Training Process <a name="trainingProcess"></a>
-- **Dataset:** The model was trained on a dataset of over 1700 images of different SME stores ![sampleDataset][image10]
-- **Preprocessing:** The images were resized to corresponding pixels expected by the model and normalized to have pixel values between 0 and 1. This process uses ImageDataGenerator from the tensorflow library.
-- **Training Parameters:** The model was trained using the Adam optimizer with adaptive learning rate. The model was trained for over 200 epoches, but only the most optimum metrics state of the model during training was saved. These processes was conducted using the built in callback API.
+- **Dataset:** The model was trained on a dataset of over 1700 images from different SME stores. ![sampleDataset][image10]
+- **Preprocessing:** The images were resized to the corresponding pixels expected by the model and normalized to have pixel values between 0 and 1. This process uses the ImageDataGenerator from the TensorFlow library. 
+- **Training Parameters:** The model was trained using the Adam optimizer with an adaptive learning rate. The model was trained for over 200 epochs, but only the most optimum metrics state of the model during training was saved. These processes were conducted using the built-in callback API.
 
 ### Convolutional Neural Network
 
